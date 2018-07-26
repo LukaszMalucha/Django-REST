@@ -21,5 +21,20 @@ authentication = linkedin.LinkedInDeveloperAuthentication(CONSUMER_KEY, CONSUMER
                                                       
 application = linkedin.LinkedInApplication(authentication)           
 
-g = application.get_profile()
-print (g)
+### MY PROFILE 
+
+# g = application.get_profile()
+# print (g)
+
+
+### COMPANIES
+
+# companies = application.search_company(selectors=[{'companies': ['name', 'universal-name', 'website-url']}], params={'keywords': 'vsource'})
+# # Search URL is https://api.linkedin.com/v1/company-search:(companies:(name,universal-name,website-url))?keywords=apple%20microsoft
+
+# print(companies)
+
+### PEOPLE (FORBIDDEN - fill the form "https://www.linkedin.com/help/linkedin/ask/API-DVR")
+
+people = application.search_profile(selectors=[{'people': ['first-name', 'last-name']}], params={'keywords': 'Sgourdas'})
+print(people)
