@@ -19,33 +19,29 @@ authentication = linkedin.LinkedInDeveloperAuthentication(CONSUMER_KEY, CONSUMER
                                                       RETURN_URL, linkedin.PERMISSIONS.enums.values())
                                                       
                                                       
-application = linkedin.LinkedInApplication(authentication)           
-
-### MY PROFILE 
-
-# g = application.get_profile()
-# print (g)
-
-### PEOPLE (FORBIDDEN - fill the form "https://www.linkedin.com/help/linkedin/ask/API-DVR")
-
-# people = application.search_profile(selectors=[{'people': ['first-name', 'last-name']}], params={'keywords': 'Sgourdas'})
-# print(people)
+application = linkedin.LinkedInApplication(authentication)        
 
 
-### COMPANIES DICTIONARY
+def multiples(m, count):
+    for i in range(count):
+        twentiers.append(i + m)
+    return twentiers
 
-companies = application.search_company(selectors=[{'companies': ['name', 'universal-name', 'website-url', 'specialties']}], params={'keywords': 'Cork education', 'count': 20, 'start': 0})
-companies2 = application.search_company(selectors=[{'companies': ['name', 'universal-name', 'website-url', 'specialties']}], params={'keywords': 'Cork education', 'count': 20, 'start': 20})
 
+### COMPANIES DICTIONARY - THROTTLE LIMIT PER TOKEN PER DAY - 500 SEARCHES
 
-# print(companies)
-element = 0
-while True:
-        comps = application.search_company(selectors=[{'companies': ['name', 'universal-name', 'website-url', 'specialties']}], params={'keywords': 'Dublin', 'count': 20, 'start': element})
-        comps['companies']['_start'] < comps['companies']['_total']
-        element += 20
-        print (comps['companies']['_start'])
-        print (comps['companies']['_total'])
+companies = application.search_company(selectors=[{'companies': ['name', 'universal-name', 'website-url', 'specialties']}], params={'keywords': 'Tralee'})
+total = companies['companies']['_total']
+count = int(total / 20)
+print(count)
+twentiers= [0,] 
+multiples(20, count)
 
-# with open('companies%s.json' % (params['start']), 'w') as outfile:
-#             json.dump(response.json(), outfile, indent=4)    
+print(twentiers)    
+    
+for element in twentiers:
+    comps = application.search_company(selectors=[{'companies': ['name', 'universal-name', 'website-url', 'specialties']}], params={'keywords': 'Tralee', 'count': 20, 'start': element})
+    print (comps['companies']['_start'])
+    print (comps['companies']['_total'])
+    
+
