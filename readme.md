@@ -15,4 +15,5 @@ pip install tweepy<br>
 pip install --upgrade pip<br>
 pip install linkedin<br>
 pip install oauthlib<br>
+pip install requests<br>
 

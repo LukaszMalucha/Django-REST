@@ -6,8 +6,8 @@ import urllib
 
 
 # CREDENTIALS
-consumer_key= os.environ.get('consumer_key')
-consumer_secret= os.environ.get('consumer_secret') 
+consumer_key= os.environ.get('CONSUMER_KEY')
+consumer_secret= os.environ.get('CONSUMER_SECRET') 
 consumer=oauth.Consumer(consumer_key, consumer_secret)
 client=oauth.Client(consumer)
 
