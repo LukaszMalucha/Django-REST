@@ -29,12 +29,12 @@ application = linkedin.LinkedInApplication(authentication)
 
 ### COMPANIES
 
-# companies = application.search_company(selectors=[{'companies': ['name', 'universal-name', 'website-url']}], params={'keywords': 'vsource'})
-# # Search URL is https://api.linkedin.com/v1/company-search:(companies:(name,universal-name,website-url))?keywords=apple%20microsoft
+companies = application.search_company(selectors=[{'companies': ['name', 'universal-name', 'website-url', 'specialties']}], params={'keywords': 'Cork education', 'count': 20, 'start': 120})
+# Search URL is https://api.linkedin.com/v1/company-search:(companies:(name,universal-name,website-url))?keywords=apple%20microsoft
 
-# print(companies)
+print(companies)
 
 ### PEOPLE (FORBIDDEN - fill the form "https://www.linkedin.com/help/linkedin/ask/API-DVR")
 
-people = application.search_profile(selectors=[{'people': ['first-name', 'last-name']}], params={'keywords': 'Sgourdas'})
-print(people)
+# people = application.search_profile(selectors=[{'people': ['first-name', 'last-name']}], params={'keywords': 'Sgourdas'})
+# print(people)
