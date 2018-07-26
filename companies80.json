@@ -1,0 +1,320 @@
+{
+    "companies": {
+        "_count": 20,
+        "_start": 80,
+        "_total": 135,
+        "values": [
+            {
+                "name": "Chinese Classes",
+                "specialties": {
+                    "_total": 9,
+                    "values": [
+                        "Chinese Language Training and Education",
+                        "Business Chinese",
+                        "Chinese Business & Etiquette Training",
+                        "Chinese Culture",
+                        "Chinese for Kids",
+                        "Transition Year Chinese",
+                        "HSK test preperation",
+                        "Chinese for the Hospitality Industry",
+                        "Course materials and design"
+                    ]
+                },
+                "universalName": "chinese-classes",
+                "websiteUrl": "www.chineseclasses.ie"
+            },
+            {
+                "name": "Meritec | Audio Visual Integrator",
+                "specialties": {
+                    "_total": 8,
+                    "values": [
+                        "AV Systems Integration",
+                        "Video Walls, Projection systems, Led displays, Interactive Displays",
+                        "System design & Project Mgt",
+                        "Video & Audio Conferencing (Web based -IP)",
+                        "Video Streaming and IP TV Solutions",
+                        "Digital Signage",
+                        "Control Systems",
+                        "Service & Support (SLA's)"
+                    ]
+                },
+                "universalName": "meritec-presentation-products-ltd",
+                "websiteUrl": "http://www.meritec.ie/"
+            },
+            {
+                "name": "Feed Cork",
+                "specialties": {
+                    "_total": 4,
+                    "values": [
+                        "Food Bank",
+                        "Food Redistribution ",
+                        "Social Care",
+                        "Volunteer Center"
+                    ]
+                },
+                "universalName": "feed-cork",
+                "websiteUrl": "http://www.feedcork.com/"
+            },
+            {
+                "name": "Himalaya Yoga Valley Centre",
+                "specialties": {
+                    "_total": 5,
+                    "values": [
+                        "yoga",
+                        "training",
+                        "workshops",
+                        "corporate wellness",
+                        "corporate yoga"
+                    ]
+                },
+                "universalName": "himalaya-yoga-valley",
+                "websiteUrl": "http://yogacorkireland.com/content/"
+            },
+            {
+                "name": "Coerver Coaching Munster",
+                "specialties": {
+                    "_total": 4,
+                    "values": [
+                        "Soccer Coaching",
+                        "Soccer Camps",
+                        "Coach Education",
+                        "Soccer Related Services"
+                    ]
+                },
+                "universalName": "coerver-coaching-midlands-ltd",
+                "websiteUrl": "www.coerver.ie"
+            },
+            {
+                "name": "CoderDojo Tramore",
+                "specialties": {
+                    "_total": 3,
+                    "values": [
+                        "Education",
+                        "Programming",
+                        "Code"
+                    ]
+                },
+                "universalName": "coderdojo-tramore",
+                "websiteUrl": "coderdojotramore.com"
+            },
+            {
+                "name": "ENNclick",
+                "specialties": {
+                    "_total": 12,
+                    "values": [
+                        "copywriting",
+                        "scriptwriting",
+                        "web content",
+                        "email newsletters",
+                        "content marketing",
+                        "thought leadership articles",
+                        "social media management",
+                        "social media training",
+                        "social media strategy",
+                        "proofreading",
+                        "editing",
+                        "marketing communications"
+                    ]
+                },
+                "universalName": "ennclick",
+                "websiteUrl": "http://ennclick.com"
+            },
+            {
+                "name": "Birchwater Education ",
+                "specialties": {
+                    "_total": 4,
+                    "values": [
+                        "English language",
+                        "University foundation Pathway Programme",
+                        "Professional Business courses ",
+                        "Digi Tech for kids"
+                    ]
+                },
+                "universalName": "birchwater-education",
+                "websiteUrl": "www.bwe.ie"
+            },
+            {
+                "name": "Scann\u00e1n Productions",
+                "specialties": {
+                    "_total": 4,
+                    "values": [
+                        "Television Production",
+                        "Corporate Video",
+                        "Commercials",
+                        "Music Videos"
+                    ]
+                },
+                "universalName": "scann-n-productions",
+                "websiteUrl": "www.scannan.ie"
+            },
+            {
+                "name": "To Market Flooring Company",
+                "specialties": {
+                    "_total": 4,
+                    "values": [
+                        "OzoGrip",
+                        "Atmosphere",
+                        "Urban Plank",
+                        "UniCork"
+                    ]
+                },
+                "universalName": "to-market-flooring-company",
+                "websiteUrl": "http://www.tomkt.com"
+            },
+            {
+                "name": "SolasTrader",
+                "universalName": "solastrader",
+                "websiteUrl": "http://www.solastrader.com/"
+            },
+            {
+                "name": "Tots2Teens",
+                "universalName": "tots2teens",
+                "websiteUrl": "www.tots2teens.ie"
+            },
+            {
+                "name": "GNCE",
+                "specialties": {
+                    "_total": 5,
+                    "values": [
+                        "Sustainable Design Solutions",
+                        "Specialist; IT, AV, Security, Lighting & Lift Design",
+                        "M&E Cost Control/Management & Value Engineering",
+                        "3D Revit Modelling, ies simulation, PHPP & BER Calculations",
+                        "Expert Witness & Legal Dispute Advice"
+                    ]
+                },
+                "universalName": "gnce",
+                "websiteUrl": "www.gnce.ie"
+            },
+            {
+                "name": "CAMMS CIT",
+                "specialties": {
+                    "_total": 6,
+                    "values": [
+                        "Project Management",
+                        "Quality, Lean and Six Sigma",
+                        "Control and Automation",
+                        "Manufacturing Engineering",
+                        "Biomedical Engineering",
+                        "Sustainable Energy"
+                    ]
+                },
+                "universalName": "camms-cit",
+                "websiteUrl": "http://www.camms.ie/"
+            },
+            {
+                "name": "f22Photography-Cork",
+                "specialties": {
+                    "_total": 8,
+                    "values": [
+                        "Photography",
+                        "Architectural Photography",
+                        "Commercial Photography",
+                        "Interior Photography",
+                        "Image editing",
+                        "Company Profiles",
+                        "Marketing Images",
+                        "Stock Photographs"
+                    ]
+                },
+                "universalName": "f22photography-cork",
+                "websiteUrl": "http://www.f22photography.ie"
+            },
+            {
+                "name": "Pearl Wine Co.",
+                "specialties": {
+                    "_total": 7,
+                    "values": [
+                        "wine tasting",
+                        "wine sales",
+                        "wine education",
+                        "craft liquor",
+                        "craft beer",
+                        "craft cocktails",
+                        "catering"
+                    ]
+                },
+                "universalName": "pearl-wine-co-formerly-cork-&-bottle-fine-wines",
+                "websiteUrl": "www.pearlwineco.com"
+            },
+            {
+                "name": "Music Generation Cork City",
+                "universalName": "musicgenerationcorkcity",
+                "websiteUrl": "www.musicgenerationcorkcity.com"
+            },
+            {
+                "name": "John Fleming - Holistic Health & Education",
+                "specialties": {
+                    "_total": 36,
+                    "values": [
+                        "Transactional Analysis",
+                        "Psychotherapy",
+                        "Counselling",
+                        "Education",
+                        "Aura Soma",
+                        "Humanistic Therapy ",
+                        "Group Therapy",
+                        "Integrative Therapy",
+                        "Relational Therapy",
+                        "Mental Health",
+                        "Wellbeing",
+                        "Residential Courses",
+                        "Retreats",
+                        "Personal Development",
+                        "Holistic",
+                        "Wellness education",
+                        "Mind, Body & Soul",
+                        "Depression",
+                        "Anxiety",
+                        "LGBT",
+                        "Self Harm",
+                        "Bereavement",
+                        "Relationship Issues",
+                        "Low Self Esteem",
+                        "Growth",
+                        "Health",
+                        "Interpersonal Skills",
+                        "Communication Training",
+                        "Parenting",
+                        "Relationships",
+                        "Professional Development",
+                        "Online Education",
+                        "Adult Ed",
+                        "Health & Wellbeing Workshops",
+                        "Health & Wellbeing Talks",
+                        "Health & Wellbeing Discussions"
+                    ]
+                },
+                "universalName": "achadh-phoire",
+                "websiteUrl": "www.johnfleming.ie"
+            },
+            {
+                "name": "The FoodRemedy",
+                "specialties": {
+                    "_total": 5,
+                    "values": [
+                        "foods that heal",
+                        "gut health",
+                        "culinary medicine",
+                        "food health education",
+                        "nutritional medicine"
+                    ]
+                },
+                "universalName": "the-foodremedy",
+                "websiteUrl": "thefoodremedy.org"
+            },
+            {
+                "name": "Corbett McDonald",
+                "specialties": {
+                    "_total": 2,
+                    "values": [
+                        "Financial",
+                        "HR & Strategic Management Solutions; Professional Education for TOPCIMA on PC."
+                    ]
+                },
+                "universalName": "corbett-mcdonald",
+                "websiteUrl": "www.corbettmcdonald.com"
+            }
+        ]
+    }
+}

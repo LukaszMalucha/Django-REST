@@ -1,0 +1,319 @@
+{
+    "companies": {
+        "_count": 20,
+        "_start": 0,
+        "_total": 135,
+        "values": [
+            {
+                "name": "Cork Education Support Centre - CESC",
+                "specialties": {
+                    "_total": 4,
+                    "values": [
+                        "Training Facilities",
+                        "Interview Space Facility",
+                        "Education Facility",
+                        "Group Meeting Facility"
+                    ]
+                },
+                "universalName": "cork-education-support-centre--cesc",
+                "websiteUrl": "www.cesc.ie"
+            },
+            {
+                "name": "Cork Institute of Technology",
+                "specialties": {
+                    "_total": 1,
+                    "values": [
+                        "Higher Education"
+                    ]
+                },
+                "universalName": "cork-institute-of-technology",
+                "websiteUrl": "http://www.cit.ie/"
+            },
+            {
+                "name": "Cork College of Commerce",
+                "specialties": {
+                    "_total": 4,
+                    "values": [
+                        "Tourism and Hospitality",
+                        "Business Administration",
+                        "Computers and Web Design",
+                        "Advertising and PR"
+                    ]
+                },
+                "universalName": "cork-college-of-commerce",
+                "websiteUrl": "www.corkcollegeofcommerce.ie"
+            },
+            {
+                "name": "Cork University Business School",
+                "specialties": {
+                    "_total": 6,
+                    "values": [
+                        "Accounting",
+                        "Business Information Systems",
+                        "Economics",
+                        "Food Business and Development",
+                        "Management and Marketing",
+                        "Finance"
+                    ]
+                },
+                "universalName": "cork-university-business-school",
+                "websiteUrl": "https://www.cubsucc.com/"
+            },
+            {
+                "name": "Cork Local Sports Partnership",
+                "specialties": {
+                    "_total": 1,
+                    "values": [
+                        "Increasing participation in Sport, Exercise and Physical Activity in Cork"
+                    ]
+                },
+                "universalName": "cork-local-sports-partnership",
+                "websiteUrl": "www.corksports.ie"
+            },
+            {
+                "name": "University College Cork",
+                "specialties": {
+                    "_total": 2,
+                    "values": [
+                        "Education",
+                        "Research"
+                    ]
+                },
+                "universalName": "university-college-cork-ireland-ucc-",
+                "websiteUrl": "http://www.ucc.ie/"
+            },
+            {
+                "name": "Cork Nature Network",
+                "specialties": {
+                    "_total": 4,
+                    "values": [
+                        "Wildlife Protection",
+                        "Education",
+                        "Conservation",
+                        "Partnerships"
+                    ]
+                },
+                "universalName": "cork-nature-network",
+                "websiteUrl": "www.corknaturenetwork.ie"
+            },
+            {
+                "name": "Cork Counselling Services",
+                "specialties": {
+                    "_total": 4,
+                    "values": [
+                        "Training",
+                        "Counselling",
+                        "Therapy",
+                        "Further education"
+                    ]
+                },
+                "universalName": "cork-counselling-services",
+                "websiteUrl": "www.thecounsellingcentre.ie"
+            },
+            {
+                "name": "JJ Rhatigan & Company",
+                "specialties": {
+                    "_total": 11,
+                    "values": [
+                        "New Build",
+                        "Medical Devices",
+                        "Pharmaceutical",
+                        "Refurbishment",
+                        "Commercial and Retail",
+                        "Fit Out",
+                        "Residential",
+                        "Industrial",
+                        "Hotel and Leisure",
+                        "Education",
+                        "Healthcare"
+                    ]
+                },
+                "universalName": "jj-rhatigan-&-company",
+                "websiteUrl": "http://www.jjrhatigan.com/"
+            },
+            {
+                "name": "Cork & Fork",
+                "specialties": {
+                    "_total": 4,
+                    "values": [
+                        "Wine",
+                        "Beer",
+                        "Cigars",
+                        "Education"
+                    ]
+                },
+                "universalName": "cork-&-fork",
+                "websiteUrl": "www.corkandfork.co"
+            },
+            {
+                "name": "Tyndall National Institute",
+                "specialties": {
+                    "_total": 14,
+                    "values": [
+                        "ICT Research",
+                        "Photonics",
+                        "microelectronics",
+                        "Nanotechnology",
+                        "Nanoelectronics",
+                        "wafer fabrication",
+                        "mems design",
+                        "Life science interface",
+                        "theory",
+                        "Modelling",
+                        "ICdesign",
+                        "IC charecterization",
+                        "Post Graduate Education",
+                        "Full CMOS fabrication facility"
+                    ]
+                },
+                "universalName": "tyndall-national-institute",
+                "websiteUrl": "www.tyndall.ie"
+            },
+            {
+                "name": "Educate Together",
+                "specialties": {
+                    "_total": 6,
+                    "values": [
+                        "Opening Innovative Schools",
+                        "Inter-cultural Education and Curriculum Development",
+                        "Online Education Courses",
+                        "Building Social Capital",
+                        "Ethical Education Specialists",
+                        "Empowering Participatory Democracy"
+                    ]
+                },
+                "universalName": "educate-together",
+                "websiteUrl": "www.educatetogether.ie"
+            },
+            {
+                "name": "RKD Architects",
+                "specialties": {
+                    "_total": 3,
+                    "values": [
+                        "Architecture",
+                        "Masterplanning",
+                        "Interior Design"
+                    ]
+                },
+                "universalName": "rkd-architects",
+                "websiteUrl": "www.rkdarchitects.com"
+            },
+            {
+                "name": "SOSV",
+                "specialties": {
+                    "_total": 10,
+                    "values": [
+                        "Accelerators",
+                        "Venture Capital",
+                        "Making the Impossible Inevitable",
+                        "life sciences",
+                        "hardware",
+                        "cross-border internet",
+                        "food",
+                        "startups",
+                        "mentorship",
+                        "Seed Funding"
+                    ]
+                },
+                "universalName": "sosvvc",
+                "websiteUrl": "http://www.sosv.com"
+            },
+            {
+                "name": "Cork & Bottle",
+                "universalName": "cork-and-bottle-wine-bar",
+                "websiteUrl": "thecorkandbottle.co.uk"
+            },
+            {
+                "name": "CoderDojo",
+                "specialties": {
+                    "_total": 16,
+                    "values": [
+                        "Coding",
+                        "HTML",
+                        "Scratch",
+                        "PHP",
+                        "Python",
+                        "Javascript",
+                        "Mentoring",
+                        "Volunteering",
+                        "Ruby",
+                        "Raspberry Pi",
+                        "Arduino",
+                        "Programming",
+                        "ICT Education",
+                        "Project Work",
+                        "Computer Programming",
+                        "Movement"
+                    ]
+                },
+                "universalName": "coderdojo",
+                "websiteUrl": "www.coderdojo.com"
+            },
+            {
+                "name": "Cork It Socio-Eccological Innovation",
+                "specialties": {
+                    "_total": 4,
+                    "values": [
+                        "Community engagement",
+                        "Skills training",
+                        "Design intervention",
+                        "Education"
+                    ]
+                },
+                "universalName": "cork-it-socio-eccological-innovation",
+                "websiteUrl": "www.corkit.ca"
+            },
+            {
+                "name": "Cope Foundation",
+                "specialties": {
+                    "_total": 14,
+                    "values": [
+                        "Early Intervention",
+                        "Independent Living",
+                        "Education",
+                        "Homes",
+                        "Training",
+                        "Supported Living",
+                        "ASD Services",
+                        "Short Breaks",
+                        "Therapy and Multidisciplinary",
+                        "Supported Employment",
+                        "Advocacy",
+                        "Physical Activities and Sports",
+                        "Day Supports",
+                        "Arts"
+                    ]
+                },
+                "universalName": "cope-foundation",
+                "websiteUrl": "www.cope-foundation.ie"
+            },
+            {
+                "name": "Cork Animal Care Society",
+                "universalName": "cork-animal-care-society",
+                "websiteUrl": "http://www.animalcaresociety.ie"
+            },
+            {
+                "name": "Ecore\u2122",
+                "specialties": {
+                    "_total": 12,
+                    "values": [
+                        "Athletic",
+                        "Healthcare",
+                        "Fitness",
+                        "Hospitality",
+                        "Retail",
+                        "Multi-Family",
+                        "Education",
+                        "Public Space",
+                        "Corporate",
+                        "Industrial",
+                        "Construction",
+                        "Equestrian"
+                    ]
+                },
+                "universalName": "ecore-international",
+                "websiteUrl": "www.ecoreintl.com"
+            }
+        ]
+    }
+}

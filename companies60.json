@@ -1,0 +1,279 @@
+{
+    "companies": {
+        "_count": 20,
+        "_start": 60,
+        "_total": 135,
+        "values": [
+            {
+                "name": "National Sports College (NSC)",
+                "specialties": {
+                    "_total": 10,
+                    "values": [
+                        "High Performance Gym",
+                        "Education",
+                        "Cryotherapy",
+                        "Sports Rehabilitation",
+                        "Athletic Development for Children",
+                        "Sports Science Lab",
+                        "Sports College",
+                        "Sports Massage",
+                        "Strength & Conditioning",
+                        "Tutor Training"
+                    ]
+                },
+                "universalName": "national-sports-centre-nsc-",
+                "websiteUrl": "www.nsc.ie"
+            },
+            {
+                "name": "LEI Group Australia",
+                "specialties": {
+                    "_total": 4,
+                    "values": [
+                        "Consulting",
+                        "Education",
+                        "Training",
+                        "Services"
+                    ]
+                },
+                "universalName": "lei-group-australia",
+                "websiteUrl": "http://leigroup.com.au/"
+            },
+            {
+                "name": "School of Food and Nutritional Sciences",
+                "universalName": "school-of-food-and-nutritional-sciences",
+                "websiteUrl": "https://www.ucc.ie/en/fns/"
+            },
+            {
+                "name": "Local Enterprise Office South Cork",
+                "universalName": "local-enterprise-office-south-cork",
+                "websiteUrl": "https://www.localenterprise.ie/southcork"
+            },
+            {
+                "name": "The Learning Curve Institute",
+                "specialties": {
+                    "_total": 10,
+                    "values": [
+                        "training",
+                        "mental health",
+                        "addiction",
+                        "counselling",
+                        "languages",
+                        "FETAC",
+                        "Leaving cert",
+                        "camps",
+                        "social studies",
+                        "snowboard"
+                    ]
+                },
+                "universalName": "the-learning-curve-institute",
+                "websiteUrl": "www.thelearningcurve.ie"
+            },
+            {
+                "name": "Cahalane Bros Ltd",
+                "specialties": {
+                    "_total": 5,
+                    "values": [
+                        "General Contracting",
+                        "Design & Build Projects",
+                        "Refurbishment & Renovation",
+                        "Commercial & Retail Fit Out",
+                        "Civil Works"
+                    ]
+                },
+                "universalName": "cahalane-bros-ltd",
+                "websiteUrl": "www.cahalane.net"
+            },
+            {
+                "name": "Wilson Architecture OMMW",
+                "universalName": "wilsonarchitectureommw",
+                "websiteUrl": "http://www.wilsonarchitecture.ie"
+            },
+            {
+                "name": "Future Project (FP Education Advisors Inc.)",
+                "specialties": {
+                    "_total": 8,
+                    "values": [
+                        "University Selection",
+                        "Personal Statement Review",
+                        "Application Guidance",
+                        "Scholarships",
+                        "Program Options",
+                        "Firsthand Experience",
+                        "Accreditation",
+                        "Admission Requirements"
+                    ]
+                },
+                "universalName": "future-project---legal-education-agent",
+                "websiteUrl": "www.futureproject.ca"
+            },
+            {
+                "name": "Irish Georgian Society",
+                "specialties": {
+                    "_total": 2,
+                    "values": [
+                        "Conservation education programme",
+                        "Georgian architecture and decorative arts"
+                    ]
+                },
+                "universalName": "irish-georgian-society",
+                "websiteUrl": "http://www.igs.ie"
+            },
+            {
+                "name": "Airflow Services Ltd",
+                "specialties": {
+                    "_total": 4,
+                    "values": [
+                        "Heating - Domestic & Industrial",
+                        "Ventilation - Domestic HRU & all industrial applications",
+                        "Air Conditioning - All applications",
+                        "HVAC Commissioning Specialists"
+                    ]
+                },
+                "universalName": "aiflow-services",
+                "websiteUrl": "http://www.airflow.ie/"
+            },
+            {
+                "name": "gurgel-segrillo",
+                "specialties": {
+                    "_total": 12,
+                    "values": [
+                        "contemporary jewellery",
+                        "design-led jewellery",
+                        "jewllery design",
+                        "contemporary design",
+                        "figurative art",
+                        "wearable art",
+                        "printmaking",
+                        "arts facilitation",
+                        "wall art",
+                        "mixed media",
+                        "visual arts",
+                        "art education"
+                    ]
+                },
+                "universalName": "gurgel-segrillo",
+                "websiteUrl": "http://www.gurgel-segrillo.com/index.html"
+            },
+            {
+                "name": "Quercus Talented Students Program UCC",
+                "specialties": {
+                    "_total": 9,
+                    "values": [
+                        "Education",
+                        "Learning",
+                        "Talent ",
+                        "University",
+                        "Sports",
+                        "Academic",
+                        "Active Citizenship",
+                        "Entrepreneurship  ",
+                        "innovation"
+                    ]
+                },
+                "universalName": "quercus-talented-students-program-ucc",
+                "websiteUrl": "https://www.ucc.ie/en/quercus/"
+            },
+            {
+                "name": "Serve the City Ireland",
+                "specialties": {
+                    "_total": 1,
+                    "values": [
+                        "Volunteer Management"
+                    ]
+                },
+                "universalName": "serve-the-city-ireland",
+                "websiteUrl": "www.servethecity.ie"
+            },
+            {
+                "name": "Veritas Ireland",
+                "specialties": {
+                    "_total": 3,
+                    "values": [
+                        "Catechetical Publishing",
+                        "Religion & Spirituality Publishing",
+                        "National Retailer of Religious Books , Gifts, Music & Art"
+                    ]
+                },
+                "universalName": "veritas-ireland",
+                "websiteUrl": "www.veritas.ie"
+            },
+            {
+                "name": "Crawford Art Gallery",
+                "specialties": {
+                    "_total": 5,
+                    "values": [
+                        "Exhibitions",
+                        "Education",
+                        "Lectures",
+                        "Tours",
+                        "Events"
+                    ]
+                },
+                "universalName": "crawford-art-gallery",
+                "websiteUrl": "http://www.crawfordartgallery.ie/"
+            },
+            {
+                "name": "APPEL (Pharmacy Experiential Learning)",
+                "specialties": {
+                    "_total": 4,
+                    "values": [
+                        "Education",
+                        "Pharmacy",
+                        "Experiential Learning",
+                        "Work Placements"
+                    ]
+                },
+                "universalName": "appel-affiliation-for-pharmacy-practice-experiential-learning",
+                "websiteUrl": "www.appel.ie"
+            },
+            {
+                "name": "Fourem",
+                "specialties": {
+                    "_total": 4,
+                    "values": [
+                        "Architecture",
+                        "Civil & Structural Engineering",
+                        "Conservation",
+                        "Education"
+                    ]
+                },
+                "universalName": "fourem",
+                "websiteUrl": "www.fourem.ie"
+            },
+            {
+                "name": "Midleton College",
+                "specialties": {
+                    "_total": 1,
+                    "values": [
+                        "Education"
+                    ]
+                },
+                "universalName": "midleton-college",
+                "websiteUrl": "midletoncollege.ie"
+            },
+            {
+                "name": "Roankabin Manufacturing Ltd",
+                "universalName": "roankabin-sales-&-marketing",
+                "websiteUrl": "www.roankabin.ie"
+            },
+            {
+                "name": "Hosting Power",
+                "specialties": {
+                    "_total": 8,
+                    "values": [
+                        "room",
+                        "Dublin",
+                        "student",
+                        "Erasmus",
+                        "Accommodation",
+                        "Third Level Education",
+                        "Internship",
+                        "Post Graduate"
+                    ]
+                },
+                "universalName": "hosting-power-ltd",
+                "websiteUrl": "www.hostingpower.ie"
+            }
+        ]
+    }
+}
