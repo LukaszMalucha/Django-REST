@@ -31,28 +31,30 @@ def collect_pages(m, count):
 
 
 ### COMPANIES DICTIONARY - THROTTLE LIMIT PER TOKEN PER DAY - 500 SEARCHES
+### SELECTORS - https://developer.linkedin.com/docs/fields/company-profile
 
-companies = application.search_company(selectors=[{'companies': ['name', 'universal-name', 'website-url', 'specialties']}], params={'keywords': 'Tralee'})
-total = companies['companies']['_total']
-count = int(total / 20)
-pages= [0,] 
-collect_pages(20, count)
+companies = application.search_company(selectors=[{'companies': ['name', 'universal-name', 'website-url', 'specialties','company-type',
+                                                                 'square-logo-url','email-domains','industries','employee-count-range',
+                                                                 'founded-year','num-followers',]}], 
+                                                                 params={'keywords': 'Tralee'})
+                                                                 
+with open('companies_Try.json', 'w') as outfile:
+        json.dump(companies, outfile, indent=4)  
 
-print(pages)    
+# total = companies['companies']['_total']
+# count = int(total / 20)
+# pages= [0,] 
+# collect_pages(20, count)
+
+# print(pages)    
  
-companies_data = []    
-for element in pages:
-    comps = application.search_company(selectors=[{'companies': ['name', 'universal-name', 'website-url', 'specialties']}], params={'keywords': 'Tralee', 'count': 20, 'start': element})
-    companies_data.append(comps)
+# companies_data = []    
+# for element in pages:
+#     comps = application.search_company(selectors=[{'companies': ['name', 'universal-name', 'website-url', 'specialties']}], params={'keywords': 'Tralee', 'count': 20, 'start': element})
+#     companies_data.append(comps)
         
         
-with open('companies_Tralee.json', 'w') as outfile:
-        json.dump(companies_data, outfile, indent=4)        
+# with open('companies_Tralee.json', 'w') as outfile:
+#         json.dump(companies_data, outfile, indent=4)        
     
-    
-
-    
-    
-    
-
-## CLOSE FILE
+print(companies)
