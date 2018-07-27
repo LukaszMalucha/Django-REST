@@ -1,4 +1,5 @@
 import os
+import json
 import env_linkedin
 from linkedin import linkedin
 from oauthlib import *
@@ -22,10 +23,11 @@ authentication = linkedin.LinkedInDeveloperAuthentication(CONSUMER_KEY, CONSUMER
 application = linkedin.LinkedInApplication(authentication)        
 
 
-def multiples(m, count):
+
+def collect_pages(m, count):
     for i in range(count):
-        twentiers.append(i + m)
-    return twentiers
+        pages.append(i + m)
+    return pages
 
 
 ### COMPANIES DICTIONARY - THROTTLE LIMIT PER TOKEN PER DAY - 500 SEARCHES
@@ -33,15 +35,24 @@ def multiples(m, count):
 companies = application.search_company(selectors=[{'companies': ['name', 'universal-name', 'website-url', 'specialties']}], params={'keywords': 'Tralee'})
 total = companies['companies']['_total']
 count = int(total / 20)
-print(count)
-twentiers= [0,] 
-multiples(20, count)
+pages= [0,] 
+collect_pages(20, count)
 
-print(twentiers)    
-    
-for element in twentiers:
+print(pages)    
+ 
+companies_data = []    
+for element in pages:
     comps = application.search_company(selectors=[{'companies': ['name', 'universal-name', 'website-url', 'specialties']}], params={'keywords': 'Tralee', 'count': 20, 'start': element})
-    print (comps['companies']['_start'])
-    print (comps['companies']['_total'])
+    companies_data.append(comps)
+        
+        
+with open('companies_Tralee.json', 'w') as outfile:
+        json.dump(companies_data, outfile, indent=4)        
+    
     
 
+    
+    
+    
+
+## CLOSE FILE
