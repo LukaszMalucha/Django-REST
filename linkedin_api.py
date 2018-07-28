@@ -32,12 +32,16 @@ def collect_pages(m, count):
 
 ### COMPANIES DICTIONARY - THROTTLE LIMIT PER TOKEN PER DAY - 500 SEARCHES
 ### SELECTORS - https://developer.linkedin.com/docs/fields/company-profile
+### IRELAND = 'facet' : ['location,ie:0']
 
+# FINANCE
 companies = application.search_company(selectors=[{'companies': ['name']}], 
-                                                                 params={'keywords': 'Cork'})
+                                                                 params={ 'facet' : ['location,ie:0','industry,47,41,129,43,42,44,45,46,128,106'] })
                                                                  
 # with open('companies_Try.json', 'w') as outfile:
 #         json.dump(companies, outfile, indent=4)  
+
+# print(companies)        
 
 total = companies['companies']['_total']
 count = int(total / 20)
@@ -48,11 +52,11 @@ collect_pages(20, count)
  
 companies_Cork = []    
 for element in pages:
-    comps = application.search_company(selectors=[{'companies': ['name', 'universal-name', 'website-url', 'specialties','company-type',
-                                                                 'square-logo-url','email-domains','industries','employee-count-range',
-                                                                 'founded-year','num-followers',]}],  params={'keywords': 'Tralee', 'count': 20, 'start': element})
+    comps = application.search_company(selectors=[{'companies': ['name', 'website-url', 'specialties','company-type',
+                                                                 'square-logo-url','industries','employee-count-range',
+                                                                 'founded-year','num-followers',]}],  params={'facet' : ['location,ie:0','industry,47,41,129,43,42,44,45,46,128,106'], 'count': 20, 'start': element})
     companies_Cork.append(comps)
         
         
-with open('companies_Cork.json', 'w') as outfile:
+with open('companies_Fin.json', 'w') as outfile:
         json.dump(companies_Cork, outfile, indent=4)        
