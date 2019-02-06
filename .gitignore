@@ -1,4 +1,4 @@
 venv/
-.idea/
+idea/
 env.py
 env_linkedin.py
