@@ -9,7 +9,7 @@ class Paradigm(models.Model):
 
 class Language(models.Model):
     name = models.CharField(max_length=50)
-    paradigm = models.ForeignKey(Paradigm, on_delete=models.CASCADE)
+    paradigm = models.ForeignKey(Paradigm, on_delete=models.CASCADE, default=None)
 
     def __str__(self):
         return self.name
