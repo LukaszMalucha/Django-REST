@@ -2,8 +2,10 @@ from django.db import models
 from django.contrib.auth.models import AbstractBaseUser, BaseUserManager, PermissionsMixin
 
 
+# Manager Class
 class UserManager(BaseUserManager):
 
+    # extra fields in case we want to exted class in a future
     def create_user(self, email, password=None, **extra_fields):
         """Creates and saves a new user"""
         if not email:
@@ -14,6 +16,7 @@ class UserManager(BaseUserManager):
 
         return user
 
+    # create superuser helper function
     def create_superuser(self, email, password):
         user = self.create_user(email, password)
         user.is_staff = True
@@ -22,7 +25,7 @@ class UserManager(BaseUserManager):
 
         return user
 
-
+#Model Class
 class User(AbstractBaseUser, PermissionsMixin):
     """Custom user model that allows using email instead of username"""
     email = models.EmailField(max_length=255, unique=True)
@@ -30,6 +33,9 @@ class User(AbstractBaseUser, PermissionsMixin):
     is_active = models.BooleanField(default=True)
     is_staff = models.BooleanField(default=False)
 
+    # Assign user manager to objects attribute
     objects = UserManager()
 
     USERNAME_FIELD = 'email'  # customize to email
+
+    ### Add  AUTH_USER_MODEL to settings
