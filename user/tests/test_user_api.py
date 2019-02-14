@@ -5,17 +5,19 @@ from django.urls import reverse
 from rest_framework.test import APIClient
 from rest_framework import status
 
+# Constant Variables
 CREATE_USER_URL = reverse('user:create')
 TOKEN_URL = reverse('user:token')
 ME_URL = reverse('user:me')
 
 
+# Helper functions with unspecified variables
 def create_user(**params):
     return get_user_model().objects.create_user(**params)
 
 
 class PublicUserApiTests(TestCase):
-    """Test the users API (public)"""
+    """Test the users API (public - not authenticated)"""
 
     def setUp(self):
         self.client = APIClient()
@@ -27,10 +29,11 @@ class PublicUserApiTests(TestCase):
             'password': 'test123',
             'name': 'test'
         }
+        # post request
         response = self.client.post(CREATE_USER_URL, payload)
 
         self.assertEqual(response.status_code, status.HTTP_201_CREATED)
-        user = get_user_model().objects.get(**response.data)
+        user = get_user_model().objects.get(**response.data)  # return created user
         self.assertTrue(user.check_password(payload['password']))
         self.assertNotIn('password', response.data)
 
@@ -54,7 +57,7 @@ class PublicUserApiTests(TestCase):
         ).exists()
         self.assertFalse(user_exists)
 
-    def test_create_token_For_user(self):
+    def test_create_token_for_user(self):
         """Test that a token is created fot the user"""
         payload = {'email': 'test@gmail.com', 'password': 'test123'}
         create_user(**payload)
@@ -87,13 +90,14 @@ class PublicUserApiTests(TestCase):
         self.assertNotIn('token', response.data)
         self.assertEqual(response.status_code, status.HTTP_400_BAD_REQUEST)
 
-    def test_retreive_user_unauthorized(self):
+    def test_retrieve_user_unauthorized(self):
         """Test that authentication is required for users"""
         response = self.client.get(ME_URL)
 
         self.assertEqual(response.status_code, status.HTTP_401_UNAUTHORIZED)
 
-class PRivateUserApiTests(TestCase):
+
+class PrivateUserApiTests(TestCase):
     """Test API requests that require authentication"""
 
     def setUp(self):
@@ -123,31 +127,11 @@ class PRivateUserApiTests(TestCase):
 
     def test_update_user_profile(self):
         """Test updating the user profile for authenticated user"""
-        payload = {'name': 'new name', 'password': 'test123'}
+        payload = {'name': 'new name', 'password': 'newtest123'}
 
         response = self.client.patch(ME_URL, payload)
 
-        self.user.refresh_from_db()
+        self.user.refresh_from_db()   ## django helper function
         self.assertEqual(self.user.name, payload['name'])
         self.assertTrue(self.user.check_password(payload['password']))
         self.assertEqual(response.status_code, status.HTTP_200_OK)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
