@@ -30,7 +30,7 @@ class UserProfileSerializer(serializers.ModelSerializer):
 
 
 class ProfileFeedItemSerializer(serializers.ModelSerializer):
-    """Serializers profile feed items"""
+    """Serializes profile feed items"""
 
     class Meta:
         model = models.ProfileFeedItem
