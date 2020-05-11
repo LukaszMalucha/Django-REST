@@ -1,3 +1,0 @@
-# REST CONCEPTS
-
---pycharm sync
